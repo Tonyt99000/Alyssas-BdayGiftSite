@@ -1,13 +1,13 @@
 body {
-    color: white;
+    color: rgb(20, 61, 148);
     text-align: center;
     font-family: 'Happy Monkey', cursive;
    background: linear-gradient(skyblue, yellow);
 
 }
 
-h1, h2, h3, h4, p {
-    text-shadow: 1px 0px 1px black;
+h1, h2, h3, h4, p, {
+    text-shadow: -2px 1px 2px black;
 }
 
 #bnf-img {
@@ -87,7 +87,8 @@ background-repeat: no-repeat;
 
 
 #gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+    background-image: url("https://media.giphy.com/media/xEH6QEcidy7Z8HcHpu/giphy.gif");
+    background-size: 350px 200px;
     
 }
 
@@ -99,10 +100,7 @@ background-repeat: no-repeat;
     text-shadow: 0px 0px 3px black;
 }
  
-a { 
-    color: white;
-    text-shadow: 0px 0px 3px black;
-}
+
 a:hover {
     background-color: lightcoral;
     border-radius: 10px;
@@ -110,9 +108,6 @@ a:hover {
     
 }
 
-#darker-text {
-    color: #E5F3FA;
-}
 /* 
 Add the footer paragraph according to the design. 
 Configure the anchor tag to open the link in a new tab.
